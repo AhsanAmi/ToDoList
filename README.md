@@ -12,6 +12,12 @@ Daily Task To-Do-List
 # ScreenShoot
 <img src="./src/images/1.png">
 
+<br>
+<h3> Edit Task Section</h3>
+<img src="./src/images/2.png">
+<br>
+<h3> Input Task Section</h3>
+<img src="./src/images/3.png">
 
 
 # Build with
