@@ -6,7 +6,7 @@ Daily Task To-Do-List
 <a href="https://ahsanami.github.io/ToDoList/">Live Demo Link</a>
 
 # ScreenShoot
-<img src="./images/screenshot.png">
+<img src="./src/images/Screenshot 2023-05-27 051921.jpg">
 
 
 
@@ -35,7 +35,10 @@ Clone the repository and navigate to the project directory
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
+  npm install webpacks
   npm install init
+  npm css-loader
+  npm style-loader
   ```
 
    
