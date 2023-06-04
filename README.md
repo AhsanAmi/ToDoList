@@ -30,6 +30,15 @@ Daily Task To-Do-List
 Start by clicking the green button in the upper right corner to download the code.
 
 Clone the repository and navigate to the project directory
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
    
 # Contributing 🤝
 
