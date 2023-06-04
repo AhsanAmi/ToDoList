@@ -5,6 +5,9 @@ Daily Task To-Do-List
 # Live Demo 🎥
 <a href="https://ahsanami.github.io/ToDoList/">Live Demo Link</a>
 
+# Features
+<b>Task Creation:</b> The ability to create and add new tasks to the list. This includes specifying a task title, description, due date, priority, and any other relevant details.
+<b>Task Organization:</b> Options for categorizing or grouping tasks into different lists or categories, such as personal, work, shopping, or custom categories based on your needs.
 # ScreenShoot
 <img src="./src/images/Screenshot 2023-05-27 051921.jpg">
 
