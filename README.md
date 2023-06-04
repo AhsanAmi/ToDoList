@@ -10,7 +10,7 @@ Daily Task To-Do-List
 <br>
 <b>Task Organization:</b> Options for categorizing or grouping tasks into different lists or categories, such as personal, work, shopping, or custom categories based on your needs.
 # ScreenShoot
-<img src="./src/images/Screenshot 2023-05-27 051921.jpg">
+<img src="./src/images/1.png">
 
 
 
