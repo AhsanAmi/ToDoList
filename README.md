@@ -9,7 +9,9 @@ Daily Task To-Do-List
 <b>Task Creation:</b> The ability to create and add new tasks to the list. This includes specifying a task title, description, due date, priority, and any other relevant details.
 <br>
 <b>Task Organization:</b> Options for categorizing or grouping tasks into different lists or categories, such as personal, work, shopping, or custom categories based on your needs.
+<br>
 <b>Data Store:</b> Data Store in Browser Local Storege
+
 # ScreenShoot
 <img src="./src/images/1.png">
 
