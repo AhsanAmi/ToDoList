@@ -73,6 +73,11 @@ listContainer.addEventListener("click", function(e) {
     removeUIElement();
     TaskContainerArray.splice(index, 1);
     saveProjectTasks(TaskContainerArray);
+
+    const getTasksArray = TaskContainerArray[0].tasks;
+const projectName=TaskContainerArray[0].projectName;
+createTaskInput(getTasksArray,projectName)
+showTasks(getTasksArray);
   }
 }, false);
 
