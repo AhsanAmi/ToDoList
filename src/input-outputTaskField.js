@@ -1,7 +1,8 @@
 import { addTask } from "./AddTask";
 import { showTasks} from "./renderTasks";
+import {saveProjectTasks} from "./index"
 
-const createTaskInput = (tasks,projectName) => {
+const createTaskInput = (tasks,projectName,StoreTaskArray) => {
   // Create HTML Code by using javascript for Add Project Code
 const mainContainer = document.getElementsByClassName("container-1")[0];
 const aside = document.createElement("aside");
@@ -68,6 +69,7 @@ addProjectButton.addEventListener("click", showInputContainer);
     addButton.addEventListener("click", () => {
       addTask(tasks);
       showTasks(tasks);     // after addition show all the task
+      saveProjectTasks(StoreTaskArray)
     });
   
     // Cancel Task Button

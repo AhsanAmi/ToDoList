@@ -25,7 +25,7 @@ addButton.addEventListener("click", () => {
     removeUIElement(); 
     TaskContainerArray.unshift(Project);
     let TaskArray = Project.tasks;
-    createTaskInput(TaskArray,Project.projectName);
+    createTaskInput(TaskArray,Project.projectName,TaskContainerArray);
     addProject(Project.projectName, listContainer);
     saveProjectName();
 
@@ -60,7 +60,7 @@ listContainer.addEventListener("click", function(e) {
     // get tasks array form relative index
     const getTasksArray = TaskContainerArray[index].tasks;
     const projectName=TaskContainerArray[index].projectName;
-    createTaskInput(getTasksArray,projectName)
+    createTaskInput(getTasksArray,projectName,TaskContainerArray)
     showTasks(getTasksArray);
     saveProjectTasks(TaskContainerArray);
     SELECTE_ID=index;
@@ -76,7 +76,7 @@ listContainer.addEventListener("click", function(e) {
 
     const getTasksArray = TaskContainerArray[0].tasks;
 const projectName=TaskContainerArray[0].projectName;
-createTaskInput(getTasksArray,projectName)
+createTaskInput(getTasksArray,projectName,TaskContainerArray)
 showTasks(getTasksArray);
   }
 }, false);
@@ -126,9 +126,11 @@ const getSelectedTask=()=>{
   SELECTE_ID = localStorage.getItem("selected-Id");
   const getTasksArray = TaskContainerArray[SELECTE_ID].tasks;
 const projectName=TaskContainerArray[SELECTE_ID].projectName;
-createTaskInput(getTasksArray,projectName)
+createTaskInput(getTasksArray,projectName,TaskContainerArray)
 showTasks(getTasksArray);
 }
 
 getSelectedTask();
 
+
+export {saveProjectTasks};
